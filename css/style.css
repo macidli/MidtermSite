@@ -1,0 +1,1003 @@
+:root{
+    --gray:#f2f2f2;
+    --blue:#0071e3;
+}
+.container{
+    margin:0 3%;
+}
+.bg-gray{
+    background-color: var(--gray);
+    text-align: center;
+}
+.bg-white{background-color:#fff;
+    border-left: 20px solid #fff;
+    border-right: 20px solid #Fff;;}
+
+nav{
+    background-color:var(--gray) ;
+    display: flex;
+    justify-content: space-between;
+    padding:25px 12px;
+}
+#navdiv label{
+    display:inline-block;
+    padding:0;}
+#navdiv img{
+    padding:0 15px;
+}
+.secret {
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    padding:30px;
+    left: -100%;
+    top: 0;
+    bottom:0;
+    text-align: left;
+    bottom: 0;
+    transition: .9s;
+}
+#sidebarmenu{padding:60px 0 0 0;}
+#sidebarmenu li {
+    padding: 10px 0;
+    color: #000;
+
+    a {
+        font-size: 1em;
+    }
+}
+.exit {
+    text-align: right;
+    color: #000 ;
+    font-size: 1em;
+}
+input {
+    display: none;
+}
+input:checked~ .secret{
+    left: 0;
+}
+#phones img{
+    padding:6px 20px;
+}
+#phones{
+    /* height:120px; */
+    background-color: #fff;
+    width:100%;
+    overflow-y: scroll;
+    display: flex;
+}
+
+.new{
+    text-align: center;
+    .minip,h6{
+        color:#bf4800;
+        padding: 0 0 5px 0;
+        font-size: .7em;
+    }
+    h6{
+        color:#000;
+    }
+}
+#bg-black p{
+    color:#fff;
+   }
+
+#phones::-webkit-scrollbar{
+    display: none;
+}
+#news{
+    padding:23px 10px 22px;
+    text-align: center;
+    background-color: var(--gray);
+    p{
+        font-size: 1.3em;
+        color:#000;
+    }  
+    a{
+        display: inline-block;
+        padding-top: 10px;
+    }
+    a i{
+        padding-left: 10px;
+    }
+}
+.bluea{
+    display: inline-block;
+    color:var(--blue);
+    margin:15px 0;
+
+}
+#navmenu{display: none;}
+#bg-black, #blueiphonesec{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    padding:30px 0;
+}
+#blueiphonesec{background-color: #fff;}
+#bg-black h5{color:#848178;}
+#blueiphonesec h5{
+    color:#000;
+    font-weight: 400;
+}
+h1{
+   font-size: 2em;
+   font-weight: 300;
+   padding:22px 0 15px;
+}
+#titantxt{
+    background:url('../img/titanium.jpeg') center/contain no-repeat;
+    margin:20px;
+    max-width:220px;
+    height:40px;
+    width:100%;
+}
+.bluebtn{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    font-size: .9em;
+    width:80px;
+    height:40px;
+    border-radius: 25px;
+    background-color: var(--blue);
+    margin:25px 0 ;
+    transition: .5s;
+}
+.bluelink{
+    color:var(--blue);
+}
+#titanimg{
+    background:url('../img/titanium-mobile.jpeg') center/contain no-repeat;
+    max-width:300px;
+    width:100%;
+    height:50vh;
+    margin-top:30px;
+}
+.section_p{
+    text-align: center;
+}
+#blueiphoneimg{
+    background: url('../img/newphoria.jpeg') center/contain no-repeat;
+    margin:10px;
+    width: 100%;
+    height:20vh;
+}
+#se{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbfd;
+    padding: 30px 0;
+    h5{
+        font-weight: 300;
+    }
+}
+#iphonese{
+    background: url(../img/lovebg.jpeg) center/contain no-repeat;
+    height: 50vh;
+    width:100%;
+    margin: 10px;
+}
+#seinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    
+}
+#se h1{
+    line-height: 1.7em;
+    font-weight: 700;
+    text-align: center;
+    color:#1e3791;
+}
+.sectionredp{
+    color:#bf4800 !important;
+    padding:10px 0;
+    font-size: .9em;
+}
+#bigbg{
+    background-color: #fff;
+    padding:20px 20px 30px 20px;
+    text-align: center;  
+}
+#nig{
+    background: url('../img/applebg12.jpeg') center/cover no-repeat;
+    height:50vh;
+    margin-bottom: 40px;
+    
+}
+#uptext{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h2{
+        font-size: 1.4em;
+        padding:22px 0;
+    }
+    p{
+        font-size: 1.8em;
+        line-height: 1.5em;
+    }
+    a{
+        font-size: .9em;
+        color:var(--blue);
+        padding:15px 0 0 0;
+    }
+}
+
+#uptextdesk{
+    display: none;
+}
+#bigbg h1{
+    text-align:center;
+    padding:20px 0;
+    font-size:2em;
+    font-weight: bold;
+}
+.generalfeatures {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+  .generalfeatures  hr {
+    width: 60%;
+    margin: auto;
+    margin-block:20px;
+  }
+  .view {
+    height: 300px;
+    padding: 0 10px;
+  }
+  .phoneimg {
+    height: 85%;
+    width: 100%;
+    object-fit: contain;
+    padding: 20px 0 10px;
+  }
+  .info p:nth-of-type(2) {
+    margin: 10px 0;
+  }
+  .info p:nth-of-type(3) {
+    margin: 20px 0 0 0;
+    font-size: 0.8em;
+  }
+  .settings div {
+    padding: 20px 0;
+  }
+  .settings img {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+  }
+  .settings p {
+    width: 145px;
+    margin: auto;
+    font: 0.7em/ 2 Arial;
+  }
+#cards{
+    padding:40px 10px;
+    width:100%;
+    
+    h2{
+        text-align: center;
+        padding:20px;
+        font-size: 1.8em;
+        font-weight: 500;
+    }
+
+}
+.card{
+    background-color: #fff;
+    margin:15px 0;
+}
+
+#cards3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    p{
+        color:#6e6e73;
+    }
+    h4{
+        font-size: 1.5em;
+        padding:30px;
+    }
+}
+#card2p{padding-bottom: 30px;}
+#airdrop{
+    background:url('../img/savei_phone.jpg') center/contain no-repeat;
+    height:30vh;
+}
+#angry{
+    background: url('../img/appleemoji.jpeg') center/contain no-repeat;
+    height:20vh;
+}
+#cardtocard{
+    background:url('../img/aplepphone.jpeg') center/contain no-repeat;
+    height:30vh;
+}
+.why{
+    background-color: #fff;
+    text-align: center;
+    margin:20px 10px;
+    h1{
+        font-size: 2em;
+        margin: 20px 10px;
+        font-weight: bold;
+    }
+    p{padding:0 10px;}  
+}
+#whyimg{
+    background:url('../img/applebg6.jpeg') right/cover no-repeat;
+    height:25vh;
+}
+#headphoneimg{
+    background:url('../img/applebg9.jpeg') center/contain no-repeat;
+    height:25vh;
+    width:100%;
+
+}
+#midh1{
+    font-weight: 600;
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+}
+.twinsec{margin-bottom:20px;}
+.twins{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fff;
+    margin:0 10px;
+    h2{
+        font-weight: 600;
+        font-size: 1.8em;
+        padding:20px 0 30px 0;
+
+    }
+    p{
+        max-width: 300px;
+        margin: 15px auto;
+        font: 1.1em / 1.5 Arial
+    }
+    #magimg{
+        background:url('../img/applephones.jpeg') center/contain no-repeat;
+        height:30vh;
+        margin:30px 0;
+    }
+    
+  
+}
+#keys{
+    background:url('../img/appleanahtarlik.jpeg') center/contain no-repeat;
+    height:30vh;
+    margin:30px 0;
+}
+.center{
+    text-align: center;
+    margin:auto;
+    justify-content: center;
+}
+#threesection{padding:15px 0;}
+#threediv{
+    display:flex;
+    flex-direction: column;
+}
+.one{
+    padding:15px 10px;
+    p{max-width: 500px;
+    margin: auto;}
+h3{
+    font-size: 1.3em;
+    padding:15px 0;
+}
+}
+#ios17div{
+    display: flex;
+    flex-direction: column;
+}
+.switching{
+    background-color: #fff;
+}
+#switchimg{
+    background:url('../img/applebg.jpeg') center/contain no-repeat;
+    width:100%;
+    height:40vh;
+}
+#privacyimg{
+    background: url('../img/privacy.jpg') center/contain no-repeat;
+    width:100%;
+    height:40vh;
+}
+#additionalimg{
+    background:url('../img/ios17.jpg') center/cover;
+    width:100%;
+    height:45vh;
+}
+.sw1,.sw2,.sw3{width:100%;}
+.sw4{
+    display: none !important;
+}
+#ios17 h1,#more h1{
+    font-size: 2em;
+    font-weight: bold;
+    padding: 60px 0 20px 0;
+}
+
+.switching{
+    background: #fff;
+    margin:20px 0;
+    width:100%;
+    
+    h2{
+        font-size: 1.8em;
+        font-weight: 500;
+        padding:20px 0;
+    }
+}
+.sw1{display: block !important;}
+#appsright{
+    background-color: #fff;
+    padding:10px 30px;
+    width:100%;
+    margin:10px 0px;
+}
+#appsright a{margin:10px 5px;}
+#appsright img{
+    display: inline-block;
+    height:40px;
+}
+#appsright p{
+    font-size:1.4em;
+    padding:20px 0;
+}
+.blackcard, .whitecard{
+    background-color: #000;
+    width:100%;
+    padding:15px 10px;
+    margin:10px 0px;
+    p{
+        color:#fff;
+        font-size: 1.8em;
+    }
+    a{
+        margin:30px 5px;
+    }
+}
+.whitecard{
+    background-color: #fff;
+    p{color:#000;}
+}
+
+.bckp{font-size:1.4em !important;}
+
+.appleicon{
+    color:white;
+    font-size: 2em;
+    padding:20px 0;
+}
+#blackdown1{
+    background: url('../img/tv-_bg.png') center/cover;
+    height:40vh;
+    margin:10px 0;
+    width:100%;
+}
+#blackdown2{
+    background: url('../img/music_bg.jpg') center/cover;
+    height:40vh;
+    margin:10px 0;
+    width:100%;
+}
+#whites{
+    display: flex;
+    flex-direction: column;
+    padding:30px 0;
+}
+.whitecard{width:100%;}
+#whiteimg1{
+    background: url('../img/fitness_bg.jpg') 50% 70%/cover no-repeat;
+    height:40vh;
+    margin:10px 0;
+    width:100%
+}
+#whiteimg2{
+    background: url('../img/arcade_bg.png') center/contain no-repeat;
+    height:50vh;
+    margin:10px 0;
+    width:100%;
+}
+#whiteimg3{
+    background: url('../img/news_bg.jpeg') 50% 70%/cover no-repeat;
+    height:40vh;
+    margin:10px 0;
+    width:100%;
+}
+#whiteimg4{
+    background: url('../img/gift_bg.jpg')  50% 90%/cover no-repeat;
+    height:40vh;
+    margin:10px 0;
+    width:100%;
+}
+#blackadd{display: none;}
+#research{
+    margin-bottom:30px ;
+    padding:25px 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    h2{
+        font-size: 1.8em;
+        font-weight: 500;
+        padding:15px 0;
+
+    }
+    p{
+        max-width: 300px;
+        margin: 15px auto;
+        font-size:1.1em;
+    }
+}
+#studiesimg{
+    background: url('../img/research_app.jpg')  center/contain no-repeat;
+    height:30vh;
+    margin:30px 0;
+
+}
+#footerbg{
+    background-color:#fff;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
+#footer1{opacity:.5}
+#footer1{
+    text-align: justify;
+}
+.ftrhr{
+    opacity:.5;
+    border: .1px solid #000;
+    margin:30px 0;
+}
+ol {
+    padding-left:30px;
+}
+/* #ftricon{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+#ftricon a:first-child{font-size: 2em;}
+#ftricon a:last-child{padding-top: 10px;}
+ */
+
+#footer2 {
+    font-size: 0.8em;
+    color: #000000c3;
+  }
+#footer2 p {
+    margin: 20px 0;
+  }
+  #footer2up {
+    margin: 10px 0 20px 16px;
+  }
+  #footer2up a {
+    display:inline-flex;
+    align-items: center;
+    gap: 40px;
+  }
+  #footer2 .fa-apple {
+    font-size: 1.5em;
+    color: #000;
+  }
+  .bigmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .bigmenu div {
+    border-bottom: 1px solid #dee2e6 ;
+  }
+  .bigmenu div:nth-last-of-type(1) {
+    border-bottom: none;
+  }
+  label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+  }
+  .openmenu {
+    max-height: 0;
+    overflow: hidden;
+    line-height: 1.5em;
+    transition: 0.3s;
+    margin: 0 0 0 20px;
+  }
+ 
+  .openmenu li:nth-last-child(1) {
+    padding-bottom:15px;
+  }
+  .toch:checked ~ .openmenu {
+    max-height: 250px;
+  }
+  /* .toch:checked ~ .fa-chevron-down{
+    transform: rotate(45deg);
+  } */
+  .moreway {
+    color: var(--blue);
+    text-decoration: underline;
+  }
+
+
+
+
+  @media only screen and (min-width: 369px) {
+    .col {
+      width: 49%;
+    }
+  }
+@media only screen and (min-width:768px){
+    .container {
+        max-width: 1100px;
+        margin: auto;
+    }
+    .fa-bars{
+        display: none;
+    }
+    #navmenu{
+        display: flex;
+        justify-content: space-between;
+        font: 600 0.7em sans-serif;
+        gap:15px;
+        align-items: center;
+    }
+    #phones{
+        border:none;
+        gap:18px;  
+    }
+    .underline-effect-blue{
+        display: inline-block;
+        position: relative;
+        padding-bottom: 5px;
+    }
+    .underline-effect-blue::before{
+        content:'';
+        position: absolute;
+        left:0;
+        bottom: 0;
+        width:0;
+        height: 1px;
+        background-color: var(--blue);
+        transition:width .25s ease-out;
+    }
+    .underline-effect-blue:hover::before{
+        width:100%;
+        border:1px solid var(--blue);
+        border-radius: 5px;
+    }
+    .underline-effect-dark{
+        position: relative;
+        padding-bottom:3px;
+        display: inline-block;
+    }
+    .underline-effect-dark::before{
+        content:'';
+        position: absolute;
+        width:0;
+        bottom:0;
+        left:50%;
+        height:2px;
+        background-color: #000;
+        transition: .25s;
+    }
+    .underline-effect-dark:hover::before{
+        width:100%;
+        left:0;
+    }
+    .bluebtn:hover{
+        background: #0723d4;
+        background: linear-gradient(90deg, #0723d499 0%, #1215a8 25%, #091c99d1 50%, #1215a8 75%, #0723d4 100%);
+        box-shadow: 0 0 30px  #0723d4;
+
+    }
+    .minip{
+        margin-top: 0px;
+    }
+    #titanimg{
+        background:url('../img/titanium-pc.png') center/contain no-repeat;
+        width:60%;
+        max-width: initial;
+        margin: initial;
+        margin-bottom: 30px;
+        
+    }
+    #blueiphoneimg{
+        background: url('../img/newphoria.jpeg') center/cover;
+        height:55vh;
+    }
+    #iphonese{
+        height: 100vh;
+    }
+    #nig{
+        background: url('../img/applebg12.jpeg') center/cover no-repeat;
+        height:100vh;
+        border-radius: 30px;
+    }
+    #nig{
+        display: flex;
+        flex-direction: row;
+        justify-content:start;
+        align-items: center;
+        text-align: left;
+    }
+    #uptext{display: none;}
+    #uptextdesk{
+    display: table;    
+    color:#fff;
+    padding: 20px;
+    h2{
+        font-size: 1.4em;
+        padding:22px 0;
+    }
+    p{
+        font-size: 2.6em;
+        line-height: 1.5em;
+        padding-bottom: 10px;
+    }
+    a{
+        display: inline-block;
+        color:#000;
+        font-size: .9em;
+        padding:7px 15px;
+        border-radius: 15px;
+        background-color:#e4dcd8;
+        
+        
+    }
+}
+.col{
+    width: 25%;
+    padding: 0 10px;
+  }
+.generalfeatures hr {
+    width: 100%;
+}
+.col .opticzoom{
+    font-weight:600;
+    font-size: 1.4em;
+}
+#bigbg h1{
+    font-size: 3em;
+}
+#cards3{
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:14px;
+}
+.card{margin:0}
+.cfirst{width:99%}
+.csecond{width:49%}
+.cthird{width:49%}
+#cards3{
+    text-align: center;
+    justify-content: center;
+  
+}
+#cards h2{font-size: 2.8em;}
+
+.bgwhy{
+    background:url('../img/applebg6.jpeg') center/cover no-repeat;
+    height:80vh;}
+#headphoneimg{
+    background:url('../img/applebg9.jpeg') 65% 50%/contain no-repeat;
+    height:50vh;
+    width:90%;
+}
+.why{
+    margin:20px 20px 30px;
+    h1{
+        margin:auto;
+        font-size: 2.8em;
+        max-width: 600px;
+    }
+    p{  margin:auto;
+        max-width: 500px;
+    }
+   
+
+}
+
+#whyimg{display: none;}
+#midh1{ 
+    font-size: 3em;
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+}
+.twins{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    h2{
+        font-size: 2.8em;
+    }
+}
+.txt{width:50%;}
+#magimg{
+    height:60vh !important;
+    margin:30px 0;
+    width:50%;
+   
+}
+#keys{
+    order:-1;
+    height:60vh !important;
+    margin:30px 0;
+    width:50%;
+}
+#threediv{
+    flex-direction: row;  
+}
+.one{width:33%;
+    gap:20px;}
+
+
+
+#ios17div{
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap:2%;
+    margin: 0 30px;
+}
+#ios17 h1,#more h1{font-size:3em;}
+.switching h2{font-size: 2.8em;}
+.sw4{
+    display:block !important;
+    order:-1;
+    width:100%;
+}
+.sw2,.sw3{
+    width:49%;
+    
+} 
+
+
+.sw1{display:none !important;}
+
+#appsright{display: none;}
+#blackadd{
+    background-color: #fff;
+    padding: 60px 20px;
+    margin:20px 0px;
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row ;
+    order:-1;
+}
+.blackcard{
+    width:49%;
+    gap:30px;
+}
+#blackimgleft{
+    display: inline-block;
+    background:url('../img/applebg2.jpeg') center/contain no-repeat;
+    height:40vh;
+    width:50%;
+}
+#text{
+    margin: auto;
+    width:50%;
+    p{
+        font-size: 1.4em;
+        padding:20px 0;
+    }
+    img{
+        height:40px;
+    }
+    a{
+        margin:10px 5px
+    }
+}
+.blackcard p:first-child{font-size: 2.8em;}
+
+#whites{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:2%;
+}
+.whitecard{
+    width:49%;
+    
+}
+#research{
+    height:70vh;
+    flex-direction: row;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 30px 0 ;
+    h2{font-size: 2.8em;}
+}
+#frstxt{width:49%;}
+#studiesimg{width:49%;}
+#footer2{
+    font-size: .8em;
+}
+.column{width:20%;}
+.bigmenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    div {
+      border-bottom: none;
+    }
+    .fa-chevron-down {
+      display: none;
+    }
+  }
+  .openmenu {
+    max-height: 250px;
+  }
+  label a {
+    font-size: 1.2em;
+  }
+  .fbtm {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    p {
+      padding: 0 5px;
+    }
+  }
+}
+
+
+
+
+
+@media only screen and (min-width:990px){
+    #se{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+    #iphonese{
+        height: 100vh;
+    }
+    #seinfo{
+        width:100%;
+        margin: auto;
+        justify-content: center;
+       h1{
+        font-size: 3em;
+       } 
+    }
+    #cards3{
+      gap:30px;
+    }
+    .cfirst{width:31.1%}
+    .csecond{width:31.1%}
+    .cthird{width:31.1%}
+    
+    
+}
